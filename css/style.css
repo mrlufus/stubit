@@ -909,7 +909,7 @@ pre {
 }
 
 #hr {
-  height: 0.1px;
+  height: 2px;
   border: none;
   background-color: gray;
   width: 80%;
