@@ -654,9 +654,9 @@
                     <h3>Frankfurt - Germany</h3>
                     <p>
                         Time Zone (GMT +02:00)
-                    <p id="ip1"><b>IP</b> // 51.116.115.235 </p>
+                    <p><b>IP</b> // <b id="ip1">51.116.115.235</b> </p>
                     </p>
-                    <button class="copy-clip" onclick="copyToClipboard('51.116.115.235')">Copy IP Address</button>
+                    <button class="copy-clip" onclick="copyToClipboard('#ip1')">Copy IP Address</button>
                 </div>
             </div>
             <div class="col-md-4">
@@ -665,9 +665,9 @@
                     <h3>Frankfurt - Germany</h3>
                     <p>
                         Time Zone (GMT +02:00)
-                    <p id="ip1"><b>IP</b> // 51.116.115.235 </p>
+                    <p><b>IP</b> // <b id="ip2">51.116.115.235</b> </p>
                     </p>
-                    <button class="copy-clip" onclick="copyToClipboard('51.116.115.235')">Copy IP Address</button>
+                    <button class="copy-clip" onclick="copyToClipboard('#ip2')">Copy IP Address</button>
                 </div>
             </div>
             <div class="col-md-4">
@@ -676,9 +676,9 @@
                     <h3>Frankfurt - Germany</h3>
                     <p>
                         Time Zone (GMT +02:00)
-                    <p id="ip1"><b>IP</b> // 51.116.115.235 </p>
+                    <p><b>IP</b> // <b id="ip3">51.116.115.235</b> </p>
                     </p>
-                    <button class="copy-clip" onclick="copyToClipboard('51.116.115.235')">Copy IP Address</button>
+                    <button class="copy-clip" onclick="copyToClipboard('#ip3')">Copy IP Address</button>
                 </div>
             </div>
 
@@ -818,7 +818,8 @@
     $temp.val($(element).text()).select();
     document.execCommand("copy");
     $temp.remove();
-} </script>
+  }
+  </script>
 
 </body>
 
